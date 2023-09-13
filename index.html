@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tennis Score Keeper</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="player1-panel">
+            <h2>Player 1</h2>
+            <button onclick="addPoint(1)">Score Point</button>
+            <h3 id="player1-score">0</h3>
+        </div>
+        <div id="player2-panel">
+            <h2>Player 2</h2>
+            <button onclick="addPoint(2)">Score Point</button>
+            <h3 id="player2-score">0</h3>
+        </div>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
